@@ -17,7 +17,7 @@
 }
 
 .start-page .sub-page-inner {
-    background-image: url(../images/home-bg.jpeg);
+    background-image: url(../../public/img/home-bg.jpeg);
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
@@ -96,4 +96,11 @@
     line-height: 1;
     /* -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; */
+}
+
+ /* about me */
+
+ .section-title {
+    margin-bottom: 65px;
+    padding-top: 20px;
 }

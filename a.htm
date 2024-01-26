@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            position: relative;
+            width: 200px; /* Chiều rộng của container */
+            height: 200px; /* Chiều cao của container */
+        }
+
+        .vertical-line {
+            position: absolute;
+            left: 50%; /* Đặt nó giữa theo chiều ngang của container */
+            width: 2px; /* Chiều rộng của đường kẻ */
+            height: 100%; /* Chiều cao của đường kẻ */
+            background-color: #000; /* Màu đen */
+            transform: translateX(-50%); /* Dịch chuyển nó đi một nửa chiều rộng của nó để căn giữa */
+        }
+
+        .circle {
+            position: absolute;
+            left: 50%; /* Đặt nó giữa theo chiều ngang của container */
+            bottom: 0; /* Đặt nó ở dưới cùng của container */
+            width: 20px; /* Đường kính của hình tròn */
+            height: 20px; /* Đường kính của hình tròn */
+            background-color: #ff0000; /* Màu đỏ */
+            border-radius: 50%; /* Làm cho nó trở thành hình tròn */
+            transform: translateX(-50%); /* Dịch chuyển nó đi một nửa chiều rộng của nó để căn giữa */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="circle vertical-line"></div>
+        
+    </div>
+</body>
+</html>

@@ -5,12 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href=".//style/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;1,400&family=Poppins:ital@0;1&display=swap" rel="stylesheet">
-        
+    <script src="./js/scrip.js" ></script>    
 <title>CV</title>
   </head>
   <body>
@@ -46,6 +44,13 @@
           </div>
         </div>
       </div>
+      <a class="menu-bar mobile-navigation" onclick="myFunction()">
+        <span class="menu-btn-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </a>
     </div>
     <!-- End Header  -->
     <!-- Banner -->
@@ -115,7 +120,7 @@
             <h2 class="heading-section experience-title">Education and Experience</h2>
             <div class="experience-item">
               <span class="circle-template"></span>
-              <span class="vertical-line"></span>
+              <!-- <span class="vertical-line"></span> -->
               <div class="experience-detail ">
                 <h4 class="experience-heading">Intern Developer</h4>
                 <h5 class="experience-time">Jan 2024 - Present</h5>
@@ -213,7 +218,7 @@
           </h2>
         </div>
         <div class="project-list">
-          <div class="row">
+          <div class="row group-projects">
             <div class="project-item">
               <div class="project-item-detail">
                 <div class="project-thumb">
@@ -304,15 +309,14 @@
 
     <!-- Contact Section  -->
     <div class="contact-section">
-      <div class="combo-header">
-        <div class="container">
+      <div class="container">
+        <div class="combo-header">
           <h2>
             <span>CONTACT ME</span>
             <hr />
           </h2>
         </div>
-      </div>
-      <div class="container">
+      
         <div class="contact-detail">
           <div class="row">
             <div class="object1">
@@ -403,7 +407,7 @@
     <!-- Footer  -->
     <div class="footer">
       <div class="container">
-        <div class="row" style="text-align: center">
+        <div class="row footer-row" style="text-align: center">
           <div class="footer-contact">
             <i class="fa fa-phone"></i>
             <h3>Call Me On</h3>

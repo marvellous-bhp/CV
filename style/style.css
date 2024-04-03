@@ -484,6 +484,7 @@ a.menu-bar span.menu-btn-icon span {
 
 .project-item {
   position: relative;
+  margin: 0 auto;
   padding: 0 15px;
 }
 .project-item-detail {
@@ -525,7 +526,9 @@ a.menu-bar span.menu-btn-icon span {
 }
 .project-content .project-detail {
   margin: 0 0 20px;
+  padding: 4px;
   font-size: 16px;
+  text-align: justify;
 }
 
 .project-content .project-member{
